@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 246, 246);
+}
+
+main {
+  margin: 20px auto;
+  text-align: center;
+  width: 600px;
+
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(231, 231, 231);
+}
+
+#input-food {
+  padding: 10px 5px;
+  outline: none;
+  width: 200px;
+  width: 100%;
+  margin-right: 15px;
+  border: 1px solid ghostwhite;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+#input-food:focus {
+  border-color: aquamarine;
+}
+
+#input-btn {
+  padding: 10px;
+  background-color: aquamarine;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 80px;
+}
+
+.food-container {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 5px 20px;
+  list-style-type: none;
+  box-shadow: 5px 5px 10px rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.food-container .food-item {
+  padding: 8px 5px;
+  font-size: 12px;
+  border: 1px solid rgb(231, 219, 219);
+  margin: 10px 0;
+  color: gray;
+  text-align: left;
+  text-transform: capitalize;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-container .food-item:hover {
+  /* background-color: rgb(79, 123, 255); */
+  background-color: aquamarine;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.food-updater {
+  background-color: rgb(31, 192, 31);
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  border-left: 5px solid green;
+}
+
+.input-name-container {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 1s;
+  width: 100%;
+}
+
+.input-name-container.hide {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: #f00;
+  overflow: hidden;
+}
+
+.input-name-style {
+  padding: 2px 10px;
+  outline: none;
+  background-color: rgb(231, 219, 219);
+  border: none;
+  padding: 10px;
+}
+
+header h1 {
+  display: inline;
+}
+
+header a {
+  font-size: 12px;
+  background-color: beige;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+header a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+main table {
+  border-spacing: 0;
+  margin: 20px auto;
+}
+
+table th,
+td {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 0.5px solid #000;
+}
+
+table a {
+  font-size: 16px;
+  color: darkblue;
+}
+
+tr:hover:nth-of-type(2n) {
+  background-color: azure;
+}
+
+tr:hover:nth-of-type(2n + 1) {
+  background-color: beige;
+}
+
+thead {
+  background-color: aquamarine;
+  color: #000;
+}
+
+tr.active {
+  background-color: lightblue;
+}
